@@ -19,7 +19,7 @@ int main()
             break;
         }
         else
-            ++max;
+            max+=1;
     } while (true);
 
     return 0;
