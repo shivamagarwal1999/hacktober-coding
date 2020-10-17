@@ -47,5 +47,4 @@ int main()
     {
         cout<<"Element is present at "<<index + 1<<" position"<<endl;
     }
-    return 0;
 }
