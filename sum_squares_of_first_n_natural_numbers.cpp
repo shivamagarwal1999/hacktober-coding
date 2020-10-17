@@ -2,11 +2,10 @@
 using namespace std;
 int main()
 {
-    int n=0;
+    int n=0,sum=0,i;
     cout<<"Input the value for 'n': ";  //Taking input for the value of 'n'
     cin>>n;
-    int sum=0;
-    for(int i=1;i<n+1;i++)
+    for(i=1;i<=n;i++)
     {
         sum += (i*i);    //Mathematical Logic for calculating sum of squares of first n natural numbers.
     }
